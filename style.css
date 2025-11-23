@@ -1,12 +1,46 @@
 body {
     margin: 0;
-    padding: 0 20px;
+    padding: 0;
     height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     background: linear-gradient(to bottom, #2a00c2, #3500f3, #00bad2);
-
     background-attachment: fixed;
+}
+
+body.sobre {
+    background: linear-gradient(to bottom, #1f008d, #1b007f, #0047aaea);
+    padding: 20px;
+    height: auto;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-shadow: none;
+    background-attachment: fixed;
+}
+
+body.sobre h1{
+    text-shadow: none;
+}
+
+.conteudo-sobre {
+    max-width: 700px;
+    margin: auto;
+}
+
+.logo-sobre {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-sobre img {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: rgb(0, 200, 255);
 }
 
 hr {
@@ -114,3 +148,38 @@ footer {
     font-size: 22px;
 }
 
+.topbar {
+    background: linear-gradient(to left, black, rgb(14, 0, 74), black);
+    color: #fff;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid rgba(120, 80, 255, 0.6);
+    box-shadow: 0 8px 10px rgba(0,0,0,0.5);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+}
+
+.topbar a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.image {
+    text-align: center;
+}
