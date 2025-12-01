@@ -72,7 +72,21 @@ p {
     backdrop-filter: blur(2px);
 }
 
-.p2{
+.front {
+    height: 75vh;
+    margin-bottom: 100px;
+    text-align: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: transform .3s ease, text-shadow .3s ease;
+}
+
+.front:hover {
+    text-shadow: 0 0 10px white;
+}
+
+.p2 {
     background: none;
 }
 
@@ -165,7 +179,7 @@ footer {
 }
 
 
-#g{
+#g {
     color: rgb(0, 0, 0);
     box-shadow: none;
     font-size: 16px;
@@ -217,4 +231,11 @@ footer {
     font-size: 15px;
     opacity: .9;
     margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    .front {
+        height: 75vh;
+        margin-bottom: 185px;
+    }
 }
