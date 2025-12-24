@@ -16,7 +16,7 @@ const myObserver = new IntersectionObserver((entries)=> {
     })
 })
 
-const elements = document.querySelectorAll('.hidden, .hidden-left')
+const elements = document.querySelectorAll('.hidden, .hidden-blurless')
 //isso seleciona todos os elementos escondidos 
 elements.forEach((element) => myObserver.observe(element))
 //e fica vigiando eles
